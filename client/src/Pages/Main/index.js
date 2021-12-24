@@ -1,9 +1,13 @@
+import Intro from "../../Components/intro";
 import Business from "../../Components/Business";
 import Footer from "../../Components/Footer";
+import Connect from "../../Components/Connect";
 
 function Main () {
     return (<div>
-        메인페이지 입니다.
+        <Intro />
+        <Business />
+        <Connect />
         <Footer/>
     </div>)
 }

@@ -3,6 +3,10 @@ import logo from '../../assets/logo.png'
 
 function Nav () {
 
+    const open = () => {
+        window.open("https://tmsdev.teamfresh.co.kr/popup/deliveryAreaSearchPopupForCustomer","새벽배송 여부 확인", "width=500, height=500, left=100, top=50")
+    }
+
     return (
         <div>
             <Link to='/'>
@@ -31,6 +35,9 @@ function Nav () {
                     보도자료
                 </span>
             </Link>
+            <button onClick={() => open()}>
+                새벽배송
+            </button>
         </div>
     )
 }

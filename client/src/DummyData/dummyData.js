@@ -3,7 +3,7 @@ import hwamul from '../assets/hwamul.png'
 import pulfill from '../assets/pulfill.jpg'
 import grow from '../assets/grow.jpg'
 
-const dummybusiness = [
+const dummyBusiness = [
     {
         id: 1,
         img: sabyuck,
@@ -14,20 +14,20 @@ const dummybusiness = [
         id: 2,
         img: hwamul,
         title: '화물주선',
-        contetns: `화물주선은 화물차량이 필요한 곳에 차량을 보내드리는 서비스입니다. 팀프레시의 데이터베이스를 활용해 차량의 원활한 수급이 가능하도록 도와드립니다.`
+        contents: `화물주선은 화물차량이 필요한 곳에 차량을 보내드리는 서비스입니다. 팀프레시의 데이터베이스를 활용해 차량의 원활한 수급이 가능하도록 도와드립니다.`
     },
     {
         id: 3,
         img: pulfill,
         title: '풀필먼트',
-        contetns: `풀필먼트는 재고관리, 주문처리, CS 업무 등을 자체적으로 해결하기 어려운 기업을 위한 서비스입니다.
+        contents: `풀필먼트는 재고관리, 주문처리, CS 업무 등을 자체적으로 해결하기 어려운 기업을 위한 서비스입니다.
         각 화주사별 요구사항을 매뉴얼화해 관리합니다`
     },
     {
         id: 4,
         img: grow,
         title: '그로서리',
-        contetns: `급식·외식·온라인 커머스 등의 고객사에 식자재를 공급하는 서비스입니다. 기존 물류망을 활용해 식자재를 일괄 공급함으로써 비용 효율화가 가능하도록 합니다.`
+        contents: `급식·외식·온라인 커머스 등의 고객사에 식자재를 공급하는 서비스입니다. 기존 물류망을 활용해 식자재를 일괄 공급함으로써 비용 효율화가 가능하도록 합니다.`
     },
 ]
 
@@ -63,4 +63,4 @@ const dummyFooter = [
     }
 ]
 
-export { dummybusiness, dummyFooter }
+export { dummyBusiness, dummyFooter }
