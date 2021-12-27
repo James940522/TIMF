@@ -7,6 +7,8 @@ import Introduction from "./Pages/Introduction";
 import Notice from "./Pages/Notice";
 import Report from "./Pages/Report";
 
+import "./App.css";
+
 function App() {
   const site = useLocation();
 
