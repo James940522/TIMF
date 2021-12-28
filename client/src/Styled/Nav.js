@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const NavDiv = styled.div`
-  width: 100%;
+  padding: 5px 10px 0 6px;
+  width: 99%;
   height: 60px;
   display: flex;
   justify-content: space-between;
+
   align-items: center;
   background: rgb(248, 249, 250);
   /* flex: 0 7; */
