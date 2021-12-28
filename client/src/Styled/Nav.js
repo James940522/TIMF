@@ -6,15 +6,18 @@ export const NavDiv = styled.div`
   height: 60px;
   display: flex;
   justify-content: space-between;
+  text-align: center;
 
   align-items: center;
   background: rgb(248, 249, 250);
+  text-align: center;
   /* flex: 0 7; */
 `;
 
 export const NavMenu = styled.div`
   display: flex;
   /* flex-direction: row; */
+  text-align: center;
 `;
 
 export const NavUl = styled.ul`
@@ -22,6 +25,7 @@ export const NavUl = styled.ul`
   list-style: none;
   /* z-index: 1; */
   display: none;
+  text-align: center;
 `;
 
 export const NavSpan = styled.span`
@@ -30,9 +34,11 @@ export const NavSpan = styled.span`
   &:hover ${NavUl} {
     display: block;
   }
+  text-align: center;
 `;
 
 export const NavLi = styled.li`
   display: flex;
   flex-direction: column;
+  text-align: center;
 `;

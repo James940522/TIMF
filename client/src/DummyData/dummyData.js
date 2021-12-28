@@ -50,6 +50,7 @@ const dummyFooter = [
       `E-mail: info@timf.co.kr`,
       `서울특별시 송파구 위례성대로 12길 15-1`,
     ],
+    Inquiry: [`영업 및 제휴 문의:`, `E-mail: sales@timf.co.kr`],
   },
   {
     id: 3,

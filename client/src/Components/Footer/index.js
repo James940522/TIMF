@@ -1,15 +1,24 @@
 import { dummyFooter } from "../../DummyData/dummyData";
 import FooterContents from "./footerContents";
+import {
+  FooterContainer,
+  FooterTextContainer,
+  LightHr,
+} from "../../Styled/Foot";
 
 function Footer() {
   return (
-    <>
-      {dummyFooter.map((el) => {
-        return <FooterContents key={el.id} data={el} />;
-      })}
-      <div>영업 및 제휴 문의:</div>
-      <div>E-mail: sales@timf.co.kr</div>
-    </>
+    <FooterContainer>
+      <FooterTextContainer>
+        {dummyFooter.map((el) => {
+          return <FooterContents key={el.id} data={el} />;
+        })}
+      </FooterTextContainer>
+      <div>
+        <LightHr />
+        <h5>© TeamFresh All right reserved</h5>
+      </div>
+    </FooterContainer>
   );
 }
 

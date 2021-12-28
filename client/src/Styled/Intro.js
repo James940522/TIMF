@@ -6,11 +6,13 @@ export const IntroDiv = styled.div`
   margin-right: -15px;
   margin-left: -15px;
   padding: 2rem;
+  text-align: center;
 `;
 
 export const IntroChildDiv = styled.div`
   width: 100%;
   padding: 70px 50px;
+  text-align: center;
 `;
 
 export const Title = styled.p`
@@ -21,6 +23,7 @@ export const Title = styled.p`
   margin-inline-end: 0px;
   font-size: 1.5rem;
   font-weight: 700;
+  text-align: center;
 `;
 
 export const Content = styled.p`
@@ -33,4 +36,5 @@ export const Content = styled.p`
   margin-inline-end: 0px;
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: center;
 `;

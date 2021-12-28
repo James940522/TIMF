@@ -3,7 +3,7 @@
   margin: 0;
   /* border: 0; */
   padding: 0;
-  text-align: center;
+  /* text-align: center; */
   /* background-color: rgba(248, 249, 250, 0.753); */
   font-family: NotoSansKR, sans-serif;
 }
@@ -12,12 +12,29 @@ body {
   width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  color: inherit;
+}
+
 hr {
+  text-align: center;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
   border-top: 2px solid #b4b4b4;
-  width: 95%;
+  /* width: 95%; */
   margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
